@@ -35,15 +35,8 @@ This project implements an admin dashboard for a library management system using
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
 
-## Screenshots
-
-[Include screenshots here if applicable]
-
 ## Credits
 
-This project is created by [Your Name].
+This project is created by Harshavardhan.
 
-## License
-
-[Include license information here]
 
