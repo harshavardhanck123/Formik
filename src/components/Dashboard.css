@@ -1,0 +1,118 @@
+.card.border-primary {
+  border-color: #007bff !important;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+
+/* Space between edit and delete buttons */
+.card-body .btn {
+  margin-right: 5px;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  filter: brightness(1.1);
+}
+
+/* CSS for Dashboard component */
+
+/* Overall container style */
+.container {
+  margin-top: 50px;
+}
+
+/* Title style */
+.text-center {
+  color: #007bff;
+}
+
+/* Card styles */
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 123, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Card body style */
+.card-body {
+  padding: 20px;
+}
+
+/* Card title style */
+.card-title {
+  color: #007bff;
+}
+
+/* Card text style */
+.card-text {
+  color: #6c757d;
+}
+
+/* Button group style */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Edit and Delete button style */
+.btn {
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+/* Edit and Delete button hover effect */
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+/* CSS for Dashboard component */
+
+/* Body background */
+body {
+  background-color: #f0f2f5; /* Light gray background */
+  font-family: Arial, sans-serif; /* Font family */
+  margin: 0; /* Remove default body margin */
+  padding: 20px; /* Add padding */
+}
+
+
+
+/* Header style */
+.header {
+  text-align: center; /* Center text */
+  margin-bottom: 30px; /* Add space below header */
+}
+
+/* Card style */
+.card {
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+  margin-bottom: 20px; /* Add space between cards */
+  padding: 20px; /* Add padding */
+}
+
+/* Button style */
+.btn {
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Add pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,8 +1,49 @@
-# React + Vite
+# Library Management System Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements an admin dashboard for a library management system using React and Formik for form validations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Book Management:**
+   - Add, edit, and delete book records.
+   - Each book record includes the title, author, ISBN number, and publication date.
+
+2. **Author Management:**
+   - Add, edit, and delete author records.
+   - Each author record includes the author's name, birth date, and a short biography.
+
+3. **Form Validations:**
+   - All forms in the dashboard are validated using Formik to ensure data integrity and accuracy.
+
+4. **Clean and Responsive Design:**
+   - The dashboard is designed to be clean, user-friendly, and responsive for easy navigation and usage.
+
+## Technologies Used
+
+- React.js: A JavaScript library for building user interfaces.
+- Formik: A form library for React to handle form state, validation, and submission.
+
+## Components
+
+- `Dashboard`: Main component containing the admin dashboard layout and functionality.
+- `BookForm`: Component for adding and editing book records with Formik validations.
+- `AuthorForm`: Component for adding and editing author records with Formik validations.
+
+## Usage
+
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+3. Run the application: `npm start`
+
+## Screenshots
+
+[Include screenshots here if applicable]
+
+## Credits
+
+This project is created by [Your Name].
+
+## License
+
+[Include license information here]
+
